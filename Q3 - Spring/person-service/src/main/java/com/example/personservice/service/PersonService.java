@@ -24,7 +24,7 @@ public class PersonService {
     }
 
     public Person save(Person person) {
-        logger.info("Saving person to the DB, ID:  {}", person.getId());
+        logger.info("Saving person to the DB, ID:  {}", person);
         return personRepo.save(person);
     }
 
